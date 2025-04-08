@@ -19,7 +19,7 @@ exports.summarize = catchAsync(async (req, res, next) => {
       }
     );
 
-    // Return the summary as JSON
+    // Return the summary as JSO
     return res.json({ summary: response.data[0].summary_text });
   } catch (error) {
     // Properly handle error and pass to error middleware
