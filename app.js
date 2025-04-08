@@ -10,7 +10,7 @@ app.use(express.json());
 
 app.use(
   cors({
-    origin: "https://ai-text-summary-app-1.onrender.com", // Adjust this if your frontend runs on a different port
+    origin: "https://ai-text-summary-be.onrender.com", // Adjust this if your frontend runs on a different port
     methods: "GET,POST,PUT,DELETE", // Allowed HTTP methods
     credentials: true, // Allow cookies and authentication headers
   })
